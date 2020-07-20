@@ -31,7 +31,9 @@ img {
 }
 
 .left {
-    width: calc(50% - 31px);
+    width: 50%;
+    display: flex;
+    justify-content: left;
 }
 
 .navList {
@@ -68,7 +70,10 @@ img {
 }
 
 .logo {
-    width: calc(50% + 31px);
+    width: 100vw;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
 }
 
 .logoImage {
@@ -77,7 +82,11 @@ img {
     margin-top: 5px;
 }
 
-.right {}
+.right {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
 
 .hamburger {
     z-index: 3;
