@@ -149,7 +149,7 @@ img {
     .nav {
         display: flex;
     }
-    .right {
+    .rightSide {
         display: inline-flex;
         width: 50%;
         padding: 5px;
