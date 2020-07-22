@@ -163,7 +163,6 @@ img {
 .name {
     margin: 0;
     width: 50%;
-    padding-left: 75px;
     font-weight: lighter;
     font-size: 35px;
     justify-content: flex-start;
